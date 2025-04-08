@@ -33,8 +33,8 @@ The goal of the skyline algorithm is to to compute the visible outline formed by
 
 ## Brute Force Algorithm
 
-In the brute force algorithm, we traverse each x-coordinate from 0 to the maximum x value and record the maximum building height at each point.  
-We build an array to store the maximum height at each x-coordinate and identify changes in height to extract the critical points.
+In the brute force algorithm, traverse each x-coordinate from 0 to the maximum x value and record the maximum building height at each point.  
+Build an array to store the maximum height at each x-coordinate and identify changes in height to extract the critical points.
 
 ### Code Explanation
 ```python
@@ -139,7 +139,7 @@ return merge(left, right)
 
 ## Sweep Line Algorithm
 
-We convert building start and end positions into events and process them in sorted order, tracking current building heights.
+Convert building start and end positions into events and process them in sorted order, tracking current building heights.
 
 ### Code Explanation
 ```python
